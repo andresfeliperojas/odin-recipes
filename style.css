@@ -9,9 +9,15 @@ body {
     text-align: center;
     font-weight: bold;
     padding: 40px;
-    margin: 30px;
+    margin: 40px;
 }
 
-ul {
-    display: inline-block;
+
+.ul-container {
+    display: flex;
+}
+
+.ul-container div {
+
+    flex: 1;
 }
